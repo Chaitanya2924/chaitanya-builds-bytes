@@ -1,5 +1,6 @@
-import { ArrowRight, Github, Linkedin, Mail, Settings } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import FractalTree from '@/components/FractalTree';
 
 const Hero = () => {
   return (
@@ -75,32 +76,9 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Animated Gears with Network Pattern */}
-          <div className="relative animate-fade-in">
-            <div className="relative w-full max-w-md mx-auto h-96 flex items-center justify-center">
-              {/* Glow Effect */}
-              <div className="absolute w-64 h-64 bg-foreground/5 rounded-full blur-3xl"></div>
-              
-              {/* Large Gear */}
-              <div className="absolute">
-                <Settings size={200} className="text-foreground opacity-15 gear-animation" strokeWidth={0.5} />
-              </div>
-              
-              {/* Medium Gear - Top Right */}
-              <div className="absolute top-8 right-12">
-                <Settings size={120} className="text-foreground opacity-20 gear-animation-reverse" strokeWidth={0.5} />
-              </div>
-              
-              {/* Small Gear - Bottom Left */}
-              <div className="absolute bottom-12 left-8">
-                <Settings size={80} className="text-foreground opacity-18 gear-animation" strokeWidth={0.5} />
-              </div>
-              
-              {/* Tiny Gear - Top Left */}
-              <div className="absolute top-20 left-20">
-                <Settings size={60} className="text-foreground opacity-15 gear-animation-reverse" strokeWidth={0.5} />
-              </div>
-            </div>
+          {/* Fractal Tree Animation */}
+          <div className="relative animate-fade-in flex items-center justify-center">
+            <FractalTree />
           </div>
         </div>
       </div>

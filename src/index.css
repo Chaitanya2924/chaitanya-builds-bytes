@@ -156,3 +156,20 @@ All colors MUST be HSL.
     opacity: 1;
   }
 }
+
+/* Fractal Tree Styles */
+#fractal-tree {
+  padding-bottom: 20px;
+}
+
+#fractal-tree .p5Canvas {
+  width: 250px !important;
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #fractal-tree .p5Canvas {
+    width: 150px !important;
+    height: 100% !important;
+  }
+}
