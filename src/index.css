@@ -163,13 +163,13 @@ All colors MUST be HSL.
 }
 
 #fractal-tree .p5Canvas {
-  width: 400px !important;
+  width: 600px !important;
   height: 100% !important;
 }
 
 @media only screen and (max-width: 600px) {
   #fractal-tree .p5Canvas {
-    width: 250px !important;
+    width: 350px !important;
     height: 100% !important;
   }
 }

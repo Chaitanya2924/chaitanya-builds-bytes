@@ -11,7 +11,7 @@ const FractalTree = () => {
       let angle = 0;
 
       p.setup = () => {
-        p.createCanvas(400, 600);
+        p.createCanvas(600, 600);
       };
 
       p.draw = () => {
