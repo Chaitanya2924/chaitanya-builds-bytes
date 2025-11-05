@@ -15,7 +15,7 @@ const FractalTree = () => {
       };
 
       p.draw = () => {
-        p.background(5, 5, 5);
+        p.clear();
         angle = p.map(p.sin(p.frameCount * 0.01), -1, 1, p.PI / 8, p.PI / 4);
         
         p.stroke(249, 249, 249);
